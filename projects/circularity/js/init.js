@@ -81,7 +81,7 @@ var circles = [];
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            
+            var rightEdge = circle.x + circle.radius;
 
 
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
