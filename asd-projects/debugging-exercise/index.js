@@ -48,6 +48,7 @@ function makeCircle(id){
     
     // this gives the circle object all of the data that it needs to store
     circle.id = "#" + id;
+    circle.x = Math.random() * maxX + circleRadius;
     circle.y = Math.random() * maxY + circleRadius;
     circle.speedX = decideSpeed();
     circle.speedY = decideSpeed();
