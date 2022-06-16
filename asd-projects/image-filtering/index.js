@@ -20,8 +20,8 @@ function resetAndRender() {
 // all of your apply functions
 function applyAndRender() {
   // Multiple TODOs: Call your apply function(s) here
+  applyFilter();
 
-  
 
   // do not change the below line of code
   render($("#display"), image);
@@ -32,8 +32,16 @@ function applyAndRender() {
 /////////////////////////////////////////////////////////
 
 // TODO 1, 2 & 4: Create the applyFilter function here
-function applyFilter(){
+function applyFilter() {
+  for (var r = 0; r < image.length; r++) {
+    var row = image[r];
 
+    for (var c = 0; c < og.length; c++) {
+      var value = og[c];
+
+      action[value];
+    }
+  }
 };
 
 // TODO 7: Create the applyFilterNoBackground function
