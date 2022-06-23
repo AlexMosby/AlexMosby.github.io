@@ -143,7 +143,7 @@ function runProgram() {
       paddle1.speedY *= -1
     }
     if (paddle2.y > BOARD_HEIGHT) {
-      paddle1.speedY *= -1
+      paddle2.speedY *= -1
     }
     else if (paddle2.y < 0) {
       paddle2.speedY *= -1
